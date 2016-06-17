@@ -105,7 +105,47 @@
     <EmbeddedResource Include="www\swagger-ui.zip" />
     <None Include="packages.config" />
     <None Include="SwaggerWcf.nuspec" />
+    <None Include="www\fonts\droid-sans-v6-latin-700.eot" />
+    <None Include="www\fonts\droid-sans-v6-latin-700.ttf" />
+    <None Include="www\fonts\droid-sans-v6-latin-700.woff" />
+    <None Include="www\fonts\droid-sans-v6-latin-700.woff2" />
+    <None Include="www\fonts\droid-sans-v6-latin-regular.eot" />
+    <None Include="www\fonts\droid-sans-v6-latin-regular.ttf" />
+    <None Include="www\fonts\droid-sans-v6-latin-regular.woff" />
+    <None Include="www\fonts\droid-sans-v6-latin-regular.woff2" />
+    <None Include="www\lib\underscore-min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="www\css\print.css" />
+    <Content Include="www\css\reset.css" />
+    <Content Include="www\css\screen.css" />
+    <Content Include="www\css\typography.css" />
+    <Content Include="www\fonts\droid-sans-v6-latin-700.svg" />
+    <Content Include="www\fonts\droid-sans-v6-latin-regular.svg" />
+    <Content Include="www\images\explorer_icons.png" />
+    <Content Include="www\images\favicon-16x16.png" />
+    <Content Include="www\images\favicon-32x32.png" />
+    <Content Include="www\images\favicon.ico" />
+    <Content Include="www\images\logo_small.png" />
+    <Content Include="www\images\pet_store_api.png" />
+    <Content Include="www\images\throbber.gif" />
+    <Content Include="www\images\wordnik_api.png" />
+    <Content Include="www\index.html" />
+    <Content Include="www\lib\backbone-min.js" />
+    <Content Include="www\lib\handlebars-2.0.0.js" />
+    <Content Include="www\lib\highlight.7.3.pack.js" />
+    <Content Include="www\lib\jquery-1.8.0.min.js" />
+    <Content Include="www\lib\jquery.ba-bbq.min.js" />
+    <Content Include="www\lib\jquery.slideto.min.js" />
+    <Content Include="www\lib\jquery.wiggle.min.js" />
+    <Content Include="www\lib\marked.js" />
+    <Content Include="www\lib\swagger-oauth.js" />
+    <Content Include="www\lib\underscore-min.js" />
+    <Content Include="www\o2c.html" />
+    <Content Include="www\swagger-ui.js" />
+    <Content Include="www\swagger-ui.min.js" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
