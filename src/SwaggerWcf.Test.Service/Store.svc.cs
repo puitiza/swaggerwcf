@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.ServiceModel.Activation;
 using System.ServiceModel.Web;
 using SwaggerWcf.Attributes;
 using SwaggerWcf.Test.Service.Data;
 
 namespace SwaggerWcf.Test.Service
 {
+    [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     [SwaggerWcf("/v1/rest")]
     public class BookStore : IStore
     {
