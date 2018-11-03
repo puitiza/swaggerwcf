@@ -161,6 +161,14 @@ public class Book
 }
 
 ```
+### Step 8: Deploy
+1° Imagen              	 | 
+:-----------------------:|
+![alt text][logo1] 	     |
+2° Imagen         	     |
+![alt text][logo2] 	     |
+
+
 
 Note: make sure you add at least the `DataContract` and `DataMember` attributes in classes and properties
 
@@ -195,3 +203,7 @@ This will prevent this tag to be displayed in the Swagger output.
 ## How to Improve It
 
 Fork this project [abelsilva/swaggerwcf](https://github.com/abelsilva/swaggerwcf) and submit pull requests.
+
+
+[logo1]: https://github.com/puitiza/swaggerwcf/blob/master/Capture/1.PNG?raw=true
+[logo2]: https://github.com/puitiza/swaggerwcf/blob/master/Capture/2.PNG?raw=true
